@@ -209,3 +209,113 @@ Star the repo if you find it useful!
 Let's expand open workflow orchestration while recognizing the managed convenience that hosted Airflow, Prefect, Dagster, and Temporal clouds deliver.
 # Awesome-VPN-Zero-Trust-Networking
 
+# Top VPN & Zero Trust Networking Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on WireGuard Mesh, Zero Trust Network Access, Overlay Networking & Secure Remote Connectivity*  
+**Last updated: October 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **VPN & Zero Trust Networking**. These systems connect users and devices through encrypted overlays—classic VPNs, WireGuard meshes, and Zero Trust Network Access (ZTNA)—without exposing every service to the public internet.
+
+**Examples** include ZeroTier, Tailscale Enterprise, NetBird Cloud, Nebula Cloud, Cisco AnyConnect, WireGuard Business offerings, Perimeter 81, Twingate, NordLayer, Cloudflare Access, and **NetBird** (`netbirdio/netbird`)—connect devices into a secure private WireGuard mesh network.
+
+**Open-source emphasis**: Overlay and WireGuard-based networking is rich in open source. **NetBird**, **Headscale**, **WireGuard**, **Nebula**, **OpenZiti**, and **Firezone** enable self-hosted zero-trust style connectivity. This section is heavily expanded.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Tailscale, NetBird Cloud, ZeroTier](https://tailscale.com/)**  
+  Managed WireGuard/mesh overlay platforms—easy device enrollment, ACLs, and cross-cloud private networking.
+
+- **[Cloudflare Access / Zero Trust, Twingate, Perimeter 81, NordLayer](https://www.cloudflare.com/zero-trust/)**  
+  Zero Trust Network Access (ZTNA) products—identity-aware access to apps without full-network VPN.
+
+- **[Cisco AnyConnect / Secure Client, other enterprise VPNs](https://www.cisco.com/)**  
+  Traditional and hybrid enterprise remote-access VPN clients and concentrators.
+
+- **[Other commercial mesh & ZTNA platforms](https://www.twingate.com/)**  
+  Additional business VPN and zero-trust connectivity services.
+
+## Open-Source GitHub Projects
+
+### WireGuard Mesh & Tailscale-Compatible
+
+- **[NetBird](https://github.com/netbirdio/netbird)**  
+  Open-source WireGuard mesh platform—self-hostable control plane, SSO, and secure private networking for devices and servers.
+
+- **[Headscale](https://github.com/juanfont/headscale)**  
+  Open-source self-hosted implementation of the Tailscale control server—use official Tailscale clients with your own coordination layer.
+
+- **[WireGuard](https://github.com/WireGuard/wireguard-tools)**  
+  Foundational open VPN protocol and tools—fast, modern cryptography; building block for most mesh products above.
+
+- **[Firezone](https://github.com/firezone/firezone)**  
+  Open-source Zero Trust access platform based on WireGuard—self-hosted secure remote access with identity providers.
+
+### Overlay & Zero Trust Frameworks
+
+- **[Nebula](https://github.com/slackhq/nebula)**  
+  Open scalable overlay networking from Slack—certificate-based trust, peer-to-peer tunnels, and host firewall integration.
+
+- **[OpenZiti](https://github.com/openziti/ziti)**  
+  Open Zero Trust networking platform—application-embedded or gateway-based connectivity with strong identity and posture concepts.
+
+- **[ZeroTier (core components / community)](https://github.com/zerotier/ZeroTierOne)**  
+  Open networking layer for virtual networks; commercial control plane available as SaaS.
+
+- **[innernet](https://github.com/tonarino/innernet)**  
+  Open private network system based on WireGuard with a focus on simple, audited design.
+
+- **[Wesher](https://github.com/costela/wesher)**  
+  Open simple WireGuard mesh with automatic cluster membership (e.g. for Docker/Swarm nodes).
+
+### Classic Open VPN & Access
+
+- **[OpenVPN](https://github.com/OpenVPN/openvpn)**  
+  Long-standing open VPN solution—flexible TLS-based tunnels for site-to-site and remote access.
+
+- **[softether / other community VPN servers](https://github.com/SoftEtherVPN/SoftEtherVPN)**  
+  Multi-protocol open VPN server options for mixed client environments.
+
+- **[Pritunl](https://github.com/pritunl/pritunl)**  
+  Open distributed enterprise VPN server built on OpenVPN and WireGuard options.
+
+### Additional Strong Open-Source Options
+
+- **Self-hosted Tailscale-style mesh**: Headscale + Tailscale clients, or full NetBird.
+- **App-level zero trust**: OpenZiti.
+- **Cert-based overlay**: Nebula.
+- **Simple WG mesh**: Wesher / innernet.
+- **Composable stacks**: WireGuard → coordination (Headscale/NetBird) → IdP (Keycloak) → optional ZTNA gateway (Firezone).
+- Commercial platforms still lead for managed global relays, support SLAs, and polished device UX at scale.
+
+**Frameworks for building custom systems**:  
+**NetBird** or **Headscale** for WireGuard mesh; **Firezone** for ZTNA-style access; **Nebula** or **OpenZiti** for alternative trust models; **WireGuard** alone for simple point-to-point links.  
+Fully open private networking is production-ready for teams willing to operate a control plane.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- VPN and zero-trust systems protect sensitive paths—secure the control plane, rotate keys/certs, enforce SSO/MFA, and monitor peer enrollment. A compromised coordinator can affect the whole mesh.
+- Open-source overlays offer data-path transparency and self-hosting. Commercial ZTNA/VPN shifts relay infrastructure and support to the vendor. Neither replaces endpoint security and least-privilege application design.
+
+---
+
+**Made for platform, security, and IT teams connecting users and services safely.**  
+Let's expand open WireGuard mesh and zero-trust networking while recognizing the managed convenience that commercial Tailscale-class and ZTNA platforms deliver.
