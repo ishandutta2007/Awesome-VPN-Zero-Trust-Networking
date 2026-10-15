@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-VPN-Zero-Trust-Networking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-VPN-Zero-Trust-Networking?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-VPN-Zero-Trust-Networking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-VPN-Zero-Trust-Networking?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-VPN-Zero-Trust-Networking/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-VPN-Zero-Trust-Networking?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-VPN-Zero-Trust-Networking/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-VPN-Zero-Trust-Networking?style=flat-square&color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -83,7 +83,7 @@ Traditional enterprise VPNs rely on perimeter-centric, "castle-and-moat" archite
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars_Count (Descending)*
+*Sorted by GitHub_Stars_Count (Descending)*
 
 ### 1. [Headscale](https://github.com/juanfont/headscale) <a href="https://github.com/juanfont/headscale/stargazers"><img src="https://img.shields.io/github/stars/juanfont/headscale?style=social&color=white" alt="Headscale Stars"/></a>
 - **Primary Language**: Go | **License**: BSD-3-Clause
